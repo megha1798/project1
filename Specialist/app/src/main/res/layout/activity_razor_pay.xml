@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RazorPay"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RazorPay "
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amt"
+        android:text="0.00"
+
+        android:id="@+id/EditPayment"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:text="Type Payment what u pay by Razor"
+        android:textSize="20dp"
+        android:id="@+id/tvtitle"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/btnPay"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:text="Pay Now"/>
+
+
+</LinearLayout>

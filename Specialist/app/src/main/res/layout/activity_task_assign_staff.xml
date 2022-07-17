@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task_AssignStaff"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtasktitlesp"
+        android:text="Task Assign to Staff"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinreqsuidsp"
+
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinStaffidsp"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etserDatesp"
+        android:hint="Enter Service Date"/>
+
+        <EditText
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Status Y or N"
+            android:id="@+id/etStatussp"/>
+
+    <Button
+
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmittasksp"
+        android:text="Submit"/>
+
+
+
+</LinearLayout>

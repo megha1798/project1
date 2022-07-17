@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/actionbar_layout_home.xml" value="0.22282608695652173" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_add_city.xml" value="0.22282608695652173" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_add_complain_det.xml" value="0.22826086956521738" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_add_designation.xml" value="0.22282608695652173" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_add_service_type.xml" value="0.22282608695652173" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_admin_login.xml" value="0.22282608695652173" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_forgot_password.xml" value="0.10989583333333333" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_main.xml" value="0.22282608695652173" />
+        <entry key="..\:/Specialist/Specialist/app/src/main/res/layout/activity_service_provide_reg.xml" value="0.22282608695652173" />
+      </map>
+    </option>
+  </component>
+</project>
